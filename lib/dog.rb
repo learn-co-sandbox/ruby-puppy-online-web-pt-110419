@@ -26,6 +26,5 @@ class Dog
     name.each do |d|
       print d 
     end
-   # print_all
   end 
 end 
