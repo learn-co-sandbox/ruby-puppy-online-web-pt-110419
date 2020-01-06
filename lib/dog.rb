@@ -23,7 +23,7 @@ class Dog
   end 
   
   def self.print_all
-   @@all.each do |d|
+  self.each do |d|
       puts d
     end
   end 
