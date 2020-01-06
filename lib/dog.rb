@@ -26,6 +26,6 @@ class Dog
    self.all.map do |d|
       puts d
     end
-    print_all
+    self.print_all
   end 
 end 
