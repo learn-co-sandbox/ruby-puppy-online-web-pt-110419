@@ -24,7 +24,7 @@ class Dog
   
   def self.print_all
     name.each do |d|
-      print d 
+      print "#{d} 
     end
   end 
 end 
