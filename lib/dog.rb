@@ -23,9 +23,8 @@ class Dog
   end 
   
   def self.print_all
-   self.all.map do |d|
+   self.@@all.map do |d|
       puts d
     end
-    d
   end 
 end 
